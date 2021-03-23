@@ -37,7 +37,7 @@
   }
   
   .time {
-    font-size: 5rem;
+    font-size: 2rem;
     transition: all 0.3s ease;
   }
 
@@ -66,9 +66,14 @@
 
 
   @media (min-width: 768px) {
+
         .button {
             font-size: 2rem;
         }  
+        .time {
+            font-size: 5rem;
+            transition: all 0.3s ease;
+          }
 
         .intro {
             font-size: 4rem;
